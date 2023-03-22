@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid lightgray;
+  padding: 0.21rem;
+  padding-top: 1rem;
+  position: sticky;
+  background-color: #f0f0f0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  &__left {
+    display: flex;
+  }
+  &__logo {
+    object-fit: contain;
+    height: 4.5rem;
+    margin-right: 0.81rem;
+  }
+  &__search {
+    display: flex;
+    align-items: center;
+    color: gray;
+    padding: 1rem;
+    border-radius: 7px;
+    background-color: #eef3f8;
+    height: min-content;
+    i {
+      font-size: 2rem;
+    }
+    input {
+      outline: none;
+      border: none;
+      background: none;
+    }
+  }
+  &__right {
+    display: flex;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,21 @@
+.topbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+  cursor: pointer;
+  &:hover {
+    color: black;
+  }
+  &__icon {
+    font-size: 3rem;
+    object-fit: contain;
+    height: 2.5rem !important;
+    width: 2.6rem !important;
+  }
+  &__text {
+    padding: 0rem;
+    font-size: 1.2rem;
+    margin-top: rem;
+  }
+}
